@@ -1,0 +1,22 @@
+import { v4 as uuidv4 } from 'uuid';
+
+export default function HStack({ spacing = 0, children }) {
+  const size = spacing * 5 + 'px';
+  const className = `-marginleft${size}`;
+
+  return (
+    <div className='-hstack'>
+      {children.map((child, index) =>
+        index === 0 ? (
+          <div key={uuidv4()} className='-marginleft0px'>
+            {child}
+          </div>
+        ) : (
+          <div key={uuidv4()} className={className}>
+            {child}
+          </div>
+        )
+      )}
+    </div>
+  );
+}
