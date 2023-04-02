@@ -1,0 +1,35 @@
+.-vstack {
+  word-wrap: break-word;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  margin-inline-start: 0.5rem;
+}
+
+.-margintop0px {
+  margin-top: 0px;
+}
+
+.-margintop5px {
+  margin-top: 5px;
+}
+
+.-margintop10px {
+  margin-top: 10px;
+}
+
+.-margintop15px {
+  margin-top: 15px;
+}
+
+.-margintop20px {
+  margin-top: 20px;
+}
+
+.-margintop25px {
+  margin-top: 25px;
+}

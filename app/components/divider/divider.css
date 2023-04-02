@@ -1,0 +1,17 @@
+.-divider {
+  display: block;
+  color: #e2e8f0;
+  word-wrap: break-word;
+  box-sizing: content-box;
+  height: 10px;
+  line-height: 1.5rem;
+  overflow: visible;
+  opacity: 1;
+  border-color: black; /*#7283fe; */
+  border-bottom: 5px solid;
+  margin-top: 3px;
+  margin-inline-end: 0px;
+  margin-bottom: 0px;
+  margin-inline-start: 0px;
+  width: 400px;
+}
