@@ -8,28 +8,29 @@
   margin-inline-end: 0px;
   margin-bottom: 0px;
   margin-inline-start: 0.5rem;
+  width: 100%;
 }
 
-.-margintop0px {
+.margintop0px {
   margin-top: 0px;
 }
 
-.-margintop5px {
+.margintop5px {
   margin-top: 5px;
 }
 
-.-margintop10px {
+.margintop10px {
   margin-top: 10px;
 }
 
-.-margintop15px {
+.margintop15px {
   margin-top: 15px;
 }
 
-.-margintop20px {
+.margintop20px {
   margin-top: 20px;
 }
 
-.-margintop25px {
+.margintop25px {
   margin-top: 25px;
 }

@@ -33,8 +33,8 @@
   word-wrap: break-word;
   margin: 0;
   font-weight: 700;
-  font-size: 1.2rem;
-  line-height: 1.3rem;
+  font-size: 1.875rem;
+  line-height: 1.33;
 }
 
 .colororange {
@@ -43,6 +43,10 @@
 
 .colorred {
   color: red;
+}
+
+.fontsize1_2rem {
+  font-size: 1.2rem;
 }
 
 .fontsize1_5rem {
@@ -173,8 +177,10 @@
 }
 
 .-tablecaption {
-  font-size: 1.1rem;
-  text-decoration: underline;
+  margin: 7px 0 0;
+  padding: 3.5px 10.5px;
+  font-size: 0.875rem;
+  caption-side: bottom;
 }
 
 .-table {

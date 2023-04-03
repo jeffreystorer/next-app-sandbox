@@ -9,36 +9,38 @@ export default function Home() {
     <>
       <div className='-center'>
         <div className='-container'>
-          <div className='-heading -center colorred fontsize2rem'>
+          <h2 className='-heading -center colorred fontsize2rem'>
             This is a VStack (2rem).
-          </div>
+          </h2>
           <Divider />
           <Divider />
-          <VStack spacing={5}>
+          <VStack spacing={0}>
             <div className='-box'>
-              <div className='-heading colororange fontsize1_5rem'>
+              <h2 className='-heading colororange fontsize1_5rem'>
                 This is the First Header (1.5rem)
-              </div>
+              </h2>
               <p className='-text'>This is the first text.</p>
             </div>
             <div className='-box'>
-              <div className='-heading'>This is the Second Header (1.2rem)</div>
+              <h2 className='-heading fontsize1_2rem'>
+                This is the Second Header (1.2rem)
+              </h2>
               <p className='-text'>This is the second text.</p>
             </div>
-            <Divider />
-            <div className='-heading'>This is an HStack.</div>
+            <Divider width='30.3rem' />
+            <h2 className='-heading'>This is an HStack.</h2>
             <HStack spacing={2}>
               <p className='-text'>One</p>
               <p className='-text'>Two</p>
               <p className='-text'>Three</p>
             </HStack>
-            <Divider />
+            <Divider width='212px' />
             <div className='-box'>
-              <div className='-heading'>This is the Third Header</div>
+              <h2 className='-heading'>This is the Third Header</h2>
               <p className='-text'>This is the third text.</p>
             </div>
-            <Divider />
-            <div className='-heading'>This is a Table.</div>
+            <Divider width='212px' />
+            <h2 className='-heading'>This is a Table.</h2>
             <div className='-tablecontainer'>
               <table className='-table'>
                 <caption className='-tablecaption'>
@@ -65,21 +67,22 @@ export default function Home() {
                 </tbody>
               </table>
             </div>
-            <Divider />
-            <div className='-heading'>This is an unordered list.</div>
+            <Divider width='212px' />
+            <h2 className='-heading'>This is an unordered list.</h2>
             <ul className='-ul'>
               <li className='-li'>Jeff</li>
               <li className='-li'>Sue</li>
               <li className='-li'>Molly</li>
               <li className='-li'>Nat</li>
             </ul>
-            <Divider />
-            <div className='-heading'>This is an Image.</div>
+            <Divider width='212px' />
+            <h2 className='-heading'>This is an Image.</h2>
             <img
+              className='-image'
               src='https://drive.google.com/uc?export=view&id=1FPV-j6QalPhd-s1G30f4ZjEBmbq2nUjK'
               alt='Spring Book & Art Sale'
-              width={650}
-              height={487}
+              width={154}
+              height={203}
             />
           </VStack>
         </div>
