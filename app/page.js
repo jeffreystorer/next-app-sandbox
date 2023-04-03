@@ -80,6 +80,7 @@ export default function Home() {
               alt='Spring Book & Art Sale'
               width={352}
               height={464}
+              priority
             />
           </VStack>
         </div>
