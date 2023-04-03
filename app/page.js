@@ -75,12 +75,11 @@ export default function Home() {
             </ul>
             <Divider />
             <div className='-heading'>This is an Image.</div>
-            <Image
+            <img
               src='https://drive.google.com/uc?export=view&id=1FPV-j6QalPhd-s1G30f4ZjEBmbq2nUjK'
               alt='Spring Book & Art Sale'
               width={352}
               height={464}
-              priority
             />
           </VStack>
         </div>
