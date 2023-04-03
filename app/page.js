@@ -78,8 +78,8 @@ export default function Home() {
             <img
               src='https://drive.google.com/uc?export=view&id=1FPV-j6QalPhd-s1G30f4ZjEBmbq2nUjK'
               alt='Spring Book & Art Sale'
-              width={352}
-              height={464}
+              width={650}
+              height={487}
             />
           </VStack>
         </div>
