@@ -22,8 +22,14 @@ export default function Home() {
               <p className='-text'>This is the first text.</p>
             </div>
             <div className='-box'>
-              <h2 className='-heading fontsize1_2rem'>
-                This is the Second Header (1.2rem)
+              <h2 className='-heading fontsize1_2rem fontfamilylucidacalligraphy'>
+                The Village Library: Lucida Calligraphy (1.2rem)
+              </h2>
+              <p className='-text'>This is the second text.</p>
+            </div>
+            <div className='-box'>
+              <h2 className='-heading fontsize1_2rem fontfamilyapplechancery'>
+                The Village Library: Apple Chancery (1.2rem)
               </h2>
               <p className='-text'>This is the second text.</p>
             </div>

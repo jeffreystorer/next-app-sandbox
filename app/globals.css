@@ -58,3 +58,11 @@ body {
   min-height: 100%;
   font-feature-settings: 'kern';
 }
+
+.fontfamilylucidacalligraphy {
+  font-family: 'Lucida Calligraphy';
+}
+
+.fontfamilyapplechancery {
+  font-family: 'Apple Chancery';
+}

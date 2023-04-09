@@ -11,6 +11,18 @@
   width: 100%;
 }
 
+.width45rem {
+  width: 45rem;
+}
+
+.width35_75rem {
+  width: 35.75rem;
+}
+
+.marginleft0_5rem {
+  margin-left: 0.5rem;
+}
+
 .margintop0px {
   margin-top: 0px;
 }
