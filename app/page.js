@@ -33,6 +33,12 @@ export default function Home() {
               </h2>
               <p className='-text'>This is the second text.</p>
             </div>
+            <div className='-box'>
+              <h2 className='-heading fontsize1_2rem fontfamilylucidamath'>
+                The Village Library: Lucida Math (1.2rem)
+              </h2>
+              <p className='-text'>This is the second text.</p>
+            </div>
             <Divider width='30.3rem' />
             <h2 className='-heading'>This is an HStack.</h2>
             <HStack spacing={2}>
