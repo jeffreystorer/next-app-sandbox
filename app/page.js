@@ -25,22 +25,13 @@ export default function Home() {
               <h2 className='-heading fontsize1_2rem fontfamilylucidacalligraphy'>
                 The Village Library: Lucida Calligraphy (1.2rem)
               </h2>
-              <h2 className='-heading fontsize1_2rem font-face-lc1'>
-                The Village Library: LC1 (1.2rem)
-              </h2>
               <p className='-text'>This is the second text.</p>
             </div>
             <div className='-box'>
-              <h2 className='-heading fontsize1_2rem font-face-lc1'>
-                The Village Library: LC1 (1.2rem)
+              <h2 className='-heading fontsize1rem fontfamilylucidacalligraphy'>
+                The Village Library: Lucida Calligraphy (1rem)
               </h2>
-              <p className='-text'>This is the second text.</p>
-            </div>
-            <div className='-box'>
-              <h2 className='-heading fontsize1_2rem font-face-lc2'>
-                The Village Library: LC2 (1.2rem)
-              </h2>
-              <p className='-text'>This is the second text.</p>
+              <p className='-text'>This is the third text.</p>
             </div>
             <Divider width='30.3rem' />
             <h2 className='-heading'>This is an HStack.</h2>

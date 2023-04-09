@@ -2,7 +2,6 @@
 import './divider.css';
 
 export default function Divider({ width = '100%' }) {
-  console.log('😊😊 width', width);
   const dividerStyle = {
     color: '#1a202c',
     boxSizing: 'content - box',
