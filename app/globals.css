@@ -63,10 +63,22 @@ body {
   font-family: 'Lucida Calligraphy';
 }
 
-.fontfamilyapplechancery {
-  font-family: 'Apple Chancery';
+@font-face {
+  font-family: 'Lucida-Calligraphy1';
+  src: url('/fonts/Lucida-Calligraphy/LC1.ttf') format('truetype');
+  font-weight: normal;
 }
 
-.fontfamilylucidamath {
-  font-family: 'Lucida Math';
+@font-face {
+  font-family: 'Lucida-Calligraphy2';
+  src: url('/fonts/Lucida-Calligraphy/LC2.ttf') format('truetype');
+  font-weight: normal;
+}
+
+.font-face-lc1 {
+  font-family: 'Lucida-Calligraphy1';
+}
+
+.font-face-lc2 {
+  font-family: 'Lucida-Calligraphy2';
 }

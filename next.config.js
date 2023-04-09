@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+
+const withFonts = require('next-fonts');
 const nextConfig = {
   experimental: {
     appDir: true,
@@ -13,6 +15,10 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
+  },
+  enableSvg: true,
+  webpack(config, options) {
+    return config;
   },
 };
 
