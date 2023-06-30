@@ -1,6 +1,6 @@
 import '@/app/globals.css';
 
-const CAPTAINS_URL = 'https://sheets.googleapis.com/v4/spreadsheets/1GEP9S0xt1JBPLs3m0DoEOaQdwxwD8CEPFOXyxlxIKkg/values/Captain?key=AIzaSyBEjIsljyD9p_moz9SBipM-hH-X_krQUpA'
+const CAPTAINS_URL = 'https://sheets.googleapis.com/v4/spreadsheets/1GEP9S0xt1JBPLs3m0DoEOaQdwxwD8CEPFOXyxlxIKkg/values/Captains?key=AIzaSyBEjIsljyD9p_moz9SBipM-hH-X_krQUpA'
 
 async function getCaptainsData() {
   const res = await fetch(CAPTAINS_URL, { cache: 'no-store'});
