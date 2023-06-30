@@ -58,13 +58,3 @@ body {
   min-height: 100%;
   font-feature-settings: 'kern';
 }
-
-@font-face {
-  font-family: 'Lucida-Calligraphy';
-  src: url('/fonts/lucida-calligraphy.ttf') format('truetype');
-  font-weight: normal;
-}
-
-.fontfamilylucidacalligraphy {
-  font-family: 'Lucida-Calligraphy';
-}
