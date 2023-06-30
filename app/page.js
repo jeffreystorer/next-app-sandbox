@@ -34,7 +34,7 @@ export default async function RootPage() {
   return (
     <table>
       <tbody>
-      {captains.map((captain, index) => (<tr key={index}><td>captain.ghinNumber</td><td>captain.lastName</td></tr>))}
+      {captains.map((captain, index) => (<tr key={index}><td>{captain.ghinNumber}</td><td>{captain.lastName}</td></tr>))}
       </tbody>
     </table>);
 }
