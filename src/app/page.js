@@ -18,6 +18,7 @@ Person.Second = () => {
 };
 
 export default function Home() {
+  Home.displayName= 'Home';
   return (
     <main>
       <Person>
