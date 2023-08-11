@@ -1,4 +1,5 @@
 const Person = ({children}) =>  {return <>{children}</>};
+Person.displayName = 'Person'
 Person.First = () => {
   return (
     <span>
