@@ -1,6 +1,6 @@
 const Person = ({children}) =>  {
-Person.displayName = 'Person';
 return <>{children}</>};
+Person.displayName = 'Person';
 Person.First = () => {
   return (
     <span>
@@ -18,7 +18,6 @@ Person.Second = () => {
 };
 
 export default function Home() {
-  Home.displayName= 'Home';
   return (
     <main>
       <Person>
@@ -28,3 +27,4 @@ export default function Home() {
     </main>
   );
 }
+  Home.displayName= 'Home';
