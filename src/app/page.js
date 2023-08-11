@@ -22,7 +22,7 @@ export default function Home() {
       <Person>
         <h1><Person.First /> <Person.Second/></h1>
         </Person>
-        <p>Now let's put some text under the heading.</p>
+        <p>Now let&apos;s put some text under the heading.</p>
     </main>
   );
 }
