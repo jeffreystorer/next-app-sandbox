@@ -1,5 +1,6 @@
-const Person = ({children}) =>  {return <>{children}</>};
-Person.displayName = 'Person'
+const Person = ({children}) =>  {
+Person.displayName = 'Person';
+return <>{children}</>};
 Person.First = () => {
   return (
     <span>
